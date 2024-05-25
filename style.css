@@ -1,0 +1,225 @@
+        :root{
+            --branco-principal: #ffffff;
+            --cinza-secundariog: #c1aaaa;
+            --botao-azul:#000000;
+            --cor-de-fundo: #060606;
+            --fonte-principal: 'Ubuntu';
+
+        }
+
+        body{
+            background-color: #220268;
+            color: var(--branco-principal);
+            font-family: var(--fonte-principal);
+            font-size: 16px;
+            font-weight: 400;
+            
+        
+            
+        }
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            display: grid;
+        }
+
+
+
+            
+            .conteúdo__principal{
+                background-image: url("imagens/combo\ único.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 100vh;
+                display: grid;
+            grid-template-columns: 50% 10%;
+            align-items: center;
+            text-align: center;
+            }
+
+            .conteúdo__caixa {
+
+                margin: 2em;
+
+            }
+
+            
+
+
+        
+        .título{
+
+            font-family: var(--fonte-principal);
+            font-size: 50px;
+            font-weight: 200;
+            text-align:center;
+            color: rgb(159, 159, 194);
+            align-items: center;
+        }
+
+        .conteúdo__imagem{
+            margin: 2em 0 2em 0;
+            align-items: center;
+            width: 80%;
+
+        }
+
+        .primeiro{
+
+        background-color: var(--botao-azul);
+        border-radius: 2.0px;
+        padding: 0.5rem;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+
+        }
+
+        .segundo{
+            background-color: transparent;
+        border: 6px  var(--branco-principal);
+        margin: 1rem;
+        color: whitesmoke;
+        
+        }
+
+        .conteúdo__aviso{
+
+            font-size: 10px;
+            color: red;
+            margin-top: 1em;
+        }
+            
+    .imagem__segunda{
+            width: 75%;
+            margin-left: 1em;
+            margin-right: 1em;
+            height: 75 vh;
+
+        }
+
+        .conteúdo__secundário{
+
+            
+            display: grid;
+            grid-template-columns: 80% 23% 35%;
+            grid-template-rows: 33% 30%;
+            column-gap: 2%;
+            height: 75vh;
+            font-size: 20px;
+            font-family: var(--fonte-principal);
+            font-weight: 300;
+            margin-left: 1em;
+            margin-right: 1em;
+            align-items: normal;   }
+
+        .descrição__título{
+
+            font-weight:400 ;
+            font-size: 30px;
+            font-family: var(--branco-principal);
+            margin-bottom: 0.2em;
+            color: var(--branco-principal);
+        
+        }
+
+        
+        .descrição__texto{
+
+            font-size: 20px;
+            color: var(--branco-principal);
+            text-align: justify;
+            
+        }
+
+        .botão__terceiro{
+
+        display: block;
+        color: #b00707;
+        
+        margin: 2em 0;
+        }
+
+    
+        .imagem__terceira{
+
+            width: 95%;
+            margin: 0 0 1em;
+        }
+
+        .dispositivos{
+            
+            text-align: center;
+
+        }
+
+        .dispositivos__título{
+
+            font-size: 32px;
+            
+        }
+
+        .lista__item{
+            font-size: 20px;
+        }
+
+        .dispositivos__lista{
+
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            list-style-type: none;
+            margin: 5em 2em; 
+            margin-bottom: 4em;
+            
+         }
+
+         
+    .rodapé__logo{
+       
+        width: 22%;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+  
+   
+   .rodapé__lista{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    list-style-type: none;
+    margin: 0 7;
+    padding-top: 2em;
+    text-decoration: none;
+    font-size: 20px;
+    }
+
+                                                
+.lista__link a {
+
+    text-decoration: none;
+    color: rgb(91, 89, 89);
+    margin: 1em 3em;
+  }
+
+   .rodapé__texto{
+
+    font-family: var(--fonte-principal);
+    font-size: 0.8em;
+    text-align: center;
+    margin: 1em 1em;
+    margin-top: 1em;
+ }
+  
+ .lista__link a:hover{
+
+    color: rgb(116, 25, 25);
+ }
+
+ .lista__link a:active{
+    color: #ffffff;
+  
+ }
